@@ -12,11 +12,10 @@ app.use(cors({
     origin: '*'
 }))
 dotenv.config({
-    path:"./.env"
+    path: "../.env"
 })
-console.log("SECRET_KEY:", process.env.SECRET_KEY); // ✅ Debug log for API key presence
 
-app.post("/chat",chatAi)
+app.post("/chat", chatAi)
 
 app.post('/generate-image',generateImage)
 

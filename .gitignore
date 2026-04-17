@@ -1,6 +1,8 @@
+Server/.env
+
+node_modules/
+
+dist/
+
 .env
-
-node modules
-
-dist    
 

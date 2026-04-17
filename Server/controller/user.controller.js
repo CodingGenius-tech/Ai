@@ -4,7 +4,7 @@ import Groq from "groq-sdk";
 
 // ✅ Initialize Groq
 const groq = new Groq({
-  apiKey: `process.env.SECRET_KEY`, // ✅ Use environment variable for API key
+  apiKey: process.env.SECRET_KEY, // ✅ Use environment variable for API key
 });
 
 // 🔥 CHAT CONTROLLER (WORKING)
