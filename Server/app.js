@@ -12,7 +12,7 @@ app.use(cors({
     origin: '*'
 }))
 dotenv.config({
-    path: "../.env"
+    path: "./.env"
 })
 
 app.post("/chat", chatAi)
